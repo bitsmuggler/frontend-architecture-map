@@ -26,7 +26,6 @@ This is a great starting point for the Frontend Architecture Map.
 If you don't have experience with story mapping, you can learn more about it in the book [User Story Mapping: Discover the Whole Story, Build the Right Product](https://amzn.to/4dBS5mc) by Jeff Patton.
 
 More resources:
-- [User Story Mapping: Discover the Whole Story, Build the Right Product](https://amzn.to/4dBS5mc) by Jeff Patton
 - [User Story Mapping: A Quick Overview](https://jpattonassociates.com/story-mapping/) by Jeff Patton
 
 
