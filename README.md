@@ -31,7 +31,19 @@ More resources:
 
 ### Discuss the interactivity factor
 
-For each user task or activity, discuss the interactivity that will be required. This will help you identify the components that will be needed and how they will interact with each other.
+For each user task or activity, discuss the interactivity factor that will be required. This will help you identify the components that will be needed and how they will interact with each other.
+
+Discuss if the interaction with the web app on this task will be:
+
+* No interaction, just view (0)
+    * View static content without any interaction. E.g. read a blog post.
+* Low interaction (1)
+    * Simple interactions like clicking a button or filling a form. E.g. a contact form.
+* Medium interaction (2)
+    * Partially dynamic feedback on interactions, e.g. a search form with results.
+* High interaction (3)
+    * Highly dynamic interactions with real-time answers, e.g. a chat application.
+
 
 ### Discuss the content update frequency (CUF)
 
