@@ -49,8 +49,14 @@ Discuss if the interaction with the web app on this task will be:
 
 For each user task or activity, discuss the content update frequency (CUF) that will be required. 
 
+Discuss for each of this activity or task how often the content will be updated:
 
-### Go through the user related quality attributes
+* Rare (0)
+* Occasional (1)
+* Regularly (2)
+* Frequent (3)
+
+### Go through the user expectations (user related quality attributes)
 
 For each user task or activity, discuss the user related quality attributes that will be required.
 
@@ -61,8 +67,7 @@ For each user task or activity, discuss the user related quality attributes that
 
 Try to scale the expectation each of these quality attributes from low to high (0 - 4).
 
-And check if the user activity is related to SEO.
-
+And check if the task is related to SEO.
 
 ### Do first architecture assumptions
 
