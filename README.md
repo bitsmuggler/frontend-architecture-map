@@ -52,9 +52,13 @@ For each user task or activity, discuss the content update frequency (CUF) that 
 Discuss for each of this activity or task how often the content will be updated:
 
 * Rare (0)
+    * The content is updated very rarely, e.g. < once a month.
 * Occasional (1)
+    * The content is updated occasionally, e.g. 1-3 times a month.
 * Regularly (2)
+    * The content is updated regularly, e.g. 1-3 times a week.
 * Frequent (3)
+    * The content is updated frequently, e.g. > 3 times a week or on a daily basis.
 
 ### Go through the user expectations (user related quality attributes)
 
@@ -67,17 +71,57 @@ For each user task or activity, discuss the user related quality attributes that
 
 Try to scale the expectation each of these quality attributes from low to high (0 - 4).
 
-And check if the task is related to SEO.
+And check if the specific task is related to SEO.
 
 ### Do first architecture assumptions
 
+The corresponding rendering technique does highly influence the architecture of the frontend and gives requirements for your technology. Therefore, it is important to define the rendering strategy for each user task or activity.
+
 #### Rendering
+
+> Rendering = Template ("preliminary markup") + Data = Displayed Web Page
 
 Try to define the rendering strategy for each user task or activity.
 
-* Client-side rendering
-* Server-side rendering
-* Static site generation
+* Client-side rendering (CSR)
+* Server-side rendering (SSR)
+* Static site generation (SSG)
+* Combined rendering strategies
+    * Server-side rendering with client-side hydration (SSR+CSR)
+    * Static site generation with client-side hydration (SSG+CSR)
+    * Incremental static site generation (SSR + SSG)
+
+
+If you are not sure about the rendering strategy, you can use the following questions to help you decide:
+
+* High interactivity: Potential client-side rendering
+* Low interactivity: Potential server-side rendering or static site generation
+
+* Frequency of content update:
+    * Rare: Potential server-side rendering or static site generation
+    * Occasional: Potential server-side rendering or static site generation
+    * Regularly: Potential client-side rendering or server-side rendering
+    * Frequent: Potential client-side rendering or server-side rendering
+
+* Will the content be updated frequently?
+    * Yes: Client-side rendering
+    * No: Server-side rendering or static site generation
+* Will the content be updated by the user?
+    * Yes: Client-side rendering
+    * No: Server-side rendering or static site generation
+* Will the content be updated by the server?
+    * Yes: Server-side rendering
+    * No: Static site generation
+* Will the content be updated by a third-party service?
+    * Yes: Client-side rendering
+    * No: Server-side rendering or static site generation   
+* Will the content be indexed by search engines?
+    * Yes: Server-side rendering or static site generation
+    * No: Client-side rendering
+
+A frequent content update will lead to a client-side rendering strategy, while a rare content update will lead to a server-side or static site generation rendering strategy.
+
+
 
 #### App Scope and Ownership
 
