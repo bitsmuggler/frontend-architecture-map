@@ -9,10 +9,7 @@ development of robust and user-friendly web experiences.
 ## Summary
 
 - [How to Use](#how-to-use)
-- [Section Definition](#section-definitions)
-- [Example](#example)
 - [Tools](#tools)
-- [Design Tips](#design-tips)
 - [Additional Resources](#additional-resources)
 
 ## How to Use
