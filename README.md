@@ -17,7 +17,7 @@ development of robust and user-friendly web experiences.
 
 ## How to Use
 
-### Start with a normal user story map.
+### Start with a user story map
 
 In story mapping, a user's journey is broken down into the most important user activities and tasks and organized in a visual map. This map is organized horizontally by sequence of activities and vertically by priority or complexity, helping teams understand the flow and identify gaps or opportunities in the user experience. The goal is to agree on what needs to be built, in what order and to what extent.
 
