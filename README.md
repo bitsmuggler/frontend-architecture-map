@@ -97,8 +97,8 @@ If you are not sure about the rendering strategy, you can use the following ques
 * High interactivity: Potential client-side rendering
 * Low interactivity: Potential server-side rendering or static site generation
 
-* Frequency of content update:
-    * Rare: Potential server-side rendering or static site generation
+* Content Update Frequency (CUF):
+    * Rare: (incremental) static site generation
     * Occasional: Potential server-side rendering or static site generation
     * Regularly: Potential client-side rendering or server-side rendering
     * Frequent: Potential client-side rendering or server-side rendering
@@ -116,13 +116,13 @@ If you are not sure about the rendering strategy, you can use the following ques
     * Yes: Client-side rendering
     * No: Server-side rendering or static site generation   
 * Will the content be indexed by search engines?
-    * Yes: Server-side rendering or static site generation
+    * Yes: Server-side rendering or static site generation (or CSR with pre-rendering)
     * No: Client-side rendering
-
-A frequent content update will lead to a client-side rendering strategy, while a rare content update will lead to a server-side or static site generation rendering strategy.
-
-
 
 #### App Scope and Ownership
 
 Try to define the app scope and ownership for each user task or activity.
+
+The organisation of your company and the team structure will influence the architecture of your frontend. Therefore, it is important to define the app scope and ownership for each user task or activity.
+
+Try to assume the app scope and ownership activity (or user task).
