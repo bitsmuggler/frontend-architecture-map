@@ -1,5 +1,7 @@
 # The Frontend Architecture Map
 
+> This technique is pretty new and we are looking forward to your [feedback](#feedback).
+
 The Frontend Architecture Map is a powerful collaboration technique that maps the user journey while integrating essential 
 architectural considerations for next-generation web applications. It is ideal for cross-functional product teams and ensures the 
 development of robust and user-friendly web experiences.
@@ -11,6 +13,7 @@ development of robust and user-friendly web experiences.
 - [How to Use](#how-to-use)
 - [Tools](#tools)
 - [Additional Resources](#additional-resources)
+- [Feedback](#feedback)
 
 ## How to Use
 
@@ -117,3 +120,7 @@ The organisation of your company and the team structure will influence the archi
 
 ### English
 * [PNG](resources/template/template-frontend-architecture-map-en.png)
+
+## Feedback
+
+This technique is pretty new and we are looking forward to your feedback. Please let us know what you think and how we can improve it. You can reach us on via [LinkedIn](https://www.linkedin.com/in/patrick-roos-40124a118/) or via [workingsoftware.dev](https://www.workingsoftware.dev).
