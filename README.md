@@ -12,9 +12,9 @@ development of robust and user-friendly web experiences.
 - [Tools](#tools)
 - [Additional Resources](#additional-resources)
 
-### How to Use
+## How to Use
 
-#### Start with a user story map
+### Start with a user story map
 
 In story mapping, a user's journey is broken down into the most important user activities and tasks and organized in a visual map. This map is organized horizontally by sequence of activities and vertically by priority or complexity, helping teams understand the flow and identify gaps or opportunities in the user experience. The goal is to agree on what needs to be built, in what order and to what extent.
 
@@ -26,7 +26,7 @@ More resources:
 - [User Story Mapping: A Quick Overview](https://jpattonassociates.com/story-mapping/) by Jeff Patton
 
 
-#### Discuss the interactivity factor
+### Discuss the interactivity factor
 
 For each user task or activity, discuss the interactivity factor that will be required. This will help you identify the components that will be needed and how they will interact with each other.
 
@@ -42,7 +42,7 @@ Discuss if the interaction with the web app on this task will be:
     * Highly dynamic interactions with real-time answers, e.g. a chat application.
 
 
-#### Discuss the content update frequency (CUF)
+### Discuss the content update frequency (CUF)
 
 For each user task or activity, discuss the content update frequency (CUF) that will be required. 
 
@@ -57,7 +57,7 @@ Discuss for each of this activity or task how often the content will be updated:
 * Frequent (3)
     * The content is updated frequently, e.g. > 3 times a week or on a daily basis.
 
-#### Go through the user expectations (user related quality attributes)
+### Go through the user expectations (user related quality attributes)
 
 For each user task or activity, discuss the user related quality attributes that will be required.
 
@@ -70,11 +70,11 @@ Try to scale the expectation each of these quality attributes from low to high (
 
 > If you rate the expectation for a specific quality attribute as high, you should concretise the requirements (e.g. with quality scenarios) and consider this in the architecture of the app.
 
-#### Do first architecture assumptions
+### Do first architecture assumptions
 
 The corresponding rendering technique does highly influence the architecture of the frontend and gives requirements for your technology. Therefore, it is important to define the rendering strategy for each user task or activity.
 
-##### Rendering
+#### Rendering
 
 >
 > ***Rendering*** = Template ("preliminary markup") + Data = Displayed Web Page
@@ -95,7 +95,7 @@ Try to define the rendering strategy for each user task or activity:
 * ***SSG+SSR (Incremental Static Regeneration, ISR)*** is ideal when you want to serve primarily static content but also ensure that updates can happen on-demand without rebuilding the entire site. It's particularly useful for content that needs to be up-to-date but isn't highly dynamic, fitting between SSG and SSR in terms of flexibility and performance.
 
 
-###### Table for Orientation
+##### Table for Orientation
 
 > Disclaimer: This table is a guideline and should be adapted to your specific quality requirements and constraints.
 
@@ -107,13 +107,13 @@ Try to define the rendering strategy for each user task or activity:
 | **High interaction (3)**                            | **CSR**      | **CSR**            | **CSR**           | **CSR**          |
 
 
-##### App Scope and Ownership
+#### App Scope and Ownership
 
 Try to define the app scope and ownership for each user task or activity.
 
 The organisation of your company and the team structure will influence the architecture of your frontend. Therefore, it is important to define the app scope and ownership for each user task or activity.
 
-### Tools
+## Tools
 
-#### English
+### English
 * [PNG](resources/template/template-frontend-architecture-map-en.png)
