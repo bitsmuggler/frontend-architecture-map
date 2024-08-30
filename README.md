@@ -66,9 +66,9 @@ For each user task or activity, discuss the user related quality attributes that
 * Reliability
 * Security
 
-Try to scale the expectation each of these quality attributes from low to high (0 - 4).
+Try to scale the expectation each of these quality attributes from low to high (0 - 4). And check if the specific task is related to SEO.
 
-And check if the specific task is related to SEO.
+> If you rate the expectation for a specific quality attribute as high, you should concretise the requirements (e.g. with quality scenarios) and consider this in the architecture of the app.
 
 #### Do first architecture assumptions
 
