@@ -1,6 +1,6 @@
 # The Frontend Architecture Map
 
-> This technique is pretty new and we are looking forward to your [feedback](#feedback).
+> 👓 This technique is pretty new and we are looking forward to your [feedback](#feedback).
 
 The Frontend Architecture Map is a powerful collaboration technique that maps the user journey while integrating essential 
 architectural considerations for next-generation web applications. It is ideal for cross-functional product teams and ensures the 
@@ -98,16 +98,16 @@ Try to define the rendering strategy for each user task or activity:
 * ***SSG+SSR (Incremental Static Regeneration, ISR)*** is ideal when you want to serve primarily static content but also ensure that updates can happen on-demand without rebuilding the entire site. It's particularly useful for content that needs to be up-to-date but isn't highly dynamic, fitting between SSG and SSR in terms of flexibility and performance.
 
 
-##### Table for Orientation
+##### Table for Rendering Assumption
 
 > Disclaimer: This table is a guideline and should be adapted to your specific quality requirements and constraints.
 
 | **Interactivity Factor \ Content Update Frequency** | **Rare (0)** | **Occasional (1)** | **Regularly (2)** | **Frequent (3)** |
 |-----------------------------------------------------|--------------|--------------------|-------------------|------------------|
-| **No interaction (0)**                              | **SSG**      | **SSG**            | **ISR (SSG+SSR)** | **SSG + CSR**    |
-| **Low interaction (1)**                             | **SSG + CSR**| **ISR (SSG+SSR)**  | **ISR (SSG+SSR)** | **SSR + CSR**    |
+| **No interaction (0)**                              | **SSG**      | **SSG**            | **iSSG (SSG+SSR)** | **SSR**    |
+| **Low interaction (1)**                             | **SSG (+ CSR)**| **iSSG (SSG+SSR)**  | **ISSG (SSG+SSR)** | **SSR (+ CSR)**    |
 | **Medium interaction (2)**                          | **SSG + CSR**| **SSR + CSR**      | **SSR**           | **SSR + CSR**    |
-| **High interaction (3)**                            | **CSR**      | **CSR**            | **CSR**           | **CSR**          |
+| **High interaction (3)**                            | **(SSG +) CSR**      | **CSR**            | **CSR**           | **CSR**          |
 
 
 #### App Scope and Ownership
