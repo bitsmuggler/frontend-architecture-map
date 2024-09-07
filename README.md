@@ -12,6 +12,7 @@ development of robust and user-friendly web experiences.
 
 - [How to Use](#how-to-use)
 - [Tools](#tools)
+- [Examples](#examples)
 - [Additional Resources](#additional-resources)
 - [Feedback](#feedback)
 
@@ -119,7 +120,21 @@ The organisation of your company and the team structure will influence the archi
 ## Tools
 
 ### English
+* [Miro Template](https://miro.com/miroverse/frontend-architecture-map/)
+* [Miro File]()
 * [PNG](resources/template/template-frontend-architecture-map-en.png)
+* [PDF](resources/template/template-frontend-architecture-map-en.pdf)
+
+### German
+
+
+
+## Examples
+
+
+## Additional Resources
+* [User Story Mapping: Discover the Whole Story, Build the Right Product](https://amzn.to/4dBS5mc) by Jeff Patton
+
 
 ## Feedback
 
