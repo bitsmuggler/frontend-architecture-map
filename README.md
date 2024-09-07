@@ -119,21 +119,15 @@ The organisation of your company and the team structure will influence the archi
 
 ## Tools
 
-### English
 * [Miro Template](https://miro.com/miroverse/frontend-architecture-map/)
-* [Miro File]()
-* [PNG](resources/template/template-frontend-architecture-map-en.png)
-* [PDF](resources/template/template-frontend-architecture-map-en.pdf)
-
-### German
-
-
+* [Miro File](resources/template/frontend-architecture-map-en.rtb)
+* [PNG](resources/template/frontend-architecture-map-en.png)
+* [PDF](resources/template/frontend-architecture-map-en.pdf)
 
 ## Examples
 
-
-## Additional Resources
-* [User Story Mapping: Discover the Whole Story, Build the Right Product](https://amzn.to/4dBS5mc) by Jeff Patton
+* [Next generation eCommerce System (en)](resources/examples/frontend-architecture-map-example-en.png)
+* [Next generation eCommerce System (de)](resources/examples/frontend-architecture-map-example-de.png)
 
 
 ## Feedback
