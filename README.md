@@ -105,8 +105,8 @@ Try to define the rendering strategy for each user task or activity:
 
 | **Interactivity Factor \ Content Update Frequency** | **Rare (0)** | **Occasional (1)** | **Regularly (2)** | **Frequent (3)** |
 |-----------------------------------------------------|--------------|--------------------|-------------------|------------------|
-| **No interaction (0)**                              | **SSG**      | **SSG**            | **iSSG (SSG+SSR)** | **SSR**    |
-| **Low interaction (1)**                             | **SSG (+ CSR)**| **iSSG (SSG+SSR)**  | **ISSG (SSG+SSR)** | **SSR (+ CSR)**    |
+| **No interaction (0)**                              | **SSG**      | **SSG**            | **SSG+SSR** | **SSR**    |
+| **Low interaction (1)**                             | **SSG (+ CSR)**| **SSG+SSR**  | **SSG+SSR** | **SSR (+ CSR)**    |
 | **Medium interaction (2)**                          | **SSG + CSR**| **SSR + CSR**      | **SSR**           | **SSR + CSR**    |
 | **High interaction (3)**                            | **(SSG +) CSR**      | **CSR**            | **CSR**           | **CSR**          |
 
