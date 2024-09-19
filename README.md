@@ -124,6 +124,10 @@ The organisation of your company and the team structure will influence the archi
 * [PNG](resources/template/frontend-architecture-map-en.png)
 * [PDF](resources/template/frontend-architecture-map-en.pdf)
 
+## Additional Resources
+
+* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](/resources/presentations/bedcon-24-slides-german.pdf)
+
 ## Examples
 
 * [Next generation eCommerce System (en)](resources/examples/frontend-architecture-map-example-en.png)
