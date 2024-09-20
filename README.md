@@ -126,7 +126,7 @@ The organisation of your company and the team structure will influence the archi
 
 ## Additional Resources
 
-* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](/resources/presentations/bedcon-24-slides-german.pdf)
+* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://drive.google.com/file/d/1WXYIEhjYtFsF9aftSAsu-1ir-qqt-B8i/view?usp=sharing)
 
 ## Examples
 
