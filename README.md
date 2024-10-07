@@ -72,16 +72,18 @@ For each user task or activity, discuss the user related quality attributes that
 
 Try to scale the expectation each of these quality attributes from low to high (0 - 4). And check if the specific task is related to SEO.
 
-> If you rate the expectation for a specific quality attribute as high, you should concretise the requirements (e.g. with quality scenarios) and consider this in the architecture of the app.
+> If you classify the expectation of a certain quality attribute as high, you should work out the requirements (e.g. with quality scenarios) and take this into account in the architecture of the app. A good reference point is the [arc42 Quality Model](https://quality.arc42.org/) with many examples of quality scenarios.
 
 ### Do first architecture assumptions
 
-The corresponding rendering technique does highly influence the architecture of the frontend and gives requirements for your technology. Therefore, it is important to define the rendering strategy for each user task or activity.
+The selected rendering technique has a major influence on the architecture of the frontend and places demands on your technology. Therefore, it is important to define the rendering strategy for each user task or activity based on interactivity, content update frequency and other user-related quality attributes.
 
 #### Rendering
 
 >
 > ***Rendering*** = Template ("preliminary markup") + Data = Displayed Web Page
+> 
+> Example: [JSX markup](https://react.dev/learn/writing-markup-with-jsx) + data = rendered view
 >
 
 Try to define the rendering strategy for each user task or activity:
@@ -92,11 +94,11 @@ Try to define the rendering strategy for each user task or activity:
 
 * ***SSG (Static Site Generation)***: Ideal for static content that doesn't require frequent updates or interactivity. Suitable when content updates are rare or occasional and the interactivity is minimal.
 
-* ***SSG + CSR (Static Site Generation with Client-Side Rendering)***: Suitable when content is mostly static but with some low-level interaction, such as forms or buttons. This combination allows for static rendering the content while adding interactivity on the client side.
+* ***SSG + CSR (Static Site Generation with Client-Side Rendering, [JAM Stack](https://jamstack.org/))***: Suitable when content is mostly static but with some low-level interaction, such as forms or buttons. This combination allows for static rendering the content while adding interactivity on the client side.
 
 * ***SSR + CSR (Server-Side Rendering with Client-Side Hydration)***: Appropriate when the content updates more regularly or requires a medium level of interactivity. Server-side rendering ensures that the content is up-to-date when served, while client-side hydration adds dynamic behavior.
 
-* ***SSG+SSR (Incremental Static Regeneration, ISR)*** is ideal when you want to serve primarily static content but also ensure that updates can happen on-demand without rebuilding the entire site. It's particularly useful for content that needs to be up-to-date but isn't highly dynamic, fitting between SSG and SSR in terms of flexibility and performance.
+* ***SSG + SSR (Incremental Static Regeneration, ISR)*** is ideal when you want to serve primarily static content but also ensure that updates can happen on-demand without rebuilding the entire site. It's particularly useful for content that needs to be up-to-date but isn't highly dynamic, fitting between SSG and SSR in terms of flexibility and performance.
 
 
 ##### Table for Rendering Assumption
