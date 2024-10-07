@@ -83,7 +83,7 @@ The selected rendering technique has a major influence on the architecture of th
 >
 > ***Rendering*** = Template ("preliminary markup") + Data = Displayed Web Page
 > 
-> Example: [JSX markup](https://react.dev/learn/writing-markup-with-jsx) + data = rendered view
+> Example: [JSX markup](https://react.dev/learn/writing-markup-with-jsx) + JSON data = rendered view
 >
 
 Try to define the rendering strategy for each user task or activity:
