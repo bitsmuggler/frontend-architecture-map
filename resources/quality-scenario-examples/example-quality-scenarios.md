@@ -2,6 +2,14 @@
 
 This page contains sample quality scenarios for user-related quality attributes. The scenarios follow the format suggested by Lenn Bass in the book ['Software Architecture in Practice'](https://amzn.to/3YwabRD).
 
+A quality scenario contains the following elements:
+- **Stimulus**: The event that triggers the quality attribute.
+- **Stimulus Source**: The source of the stimulus.
+- **Environment**: The conditions under which the stimulus occurs.
+- **Artifact**: The software system or component being evaluated.
+- **Response**: The desired response to the stimulus.
+- **Response Measure**: The quantifiable measure of the response.
+
 ## Performance Efficiency
 
 ### Fast Page Load Time for Viewing the Deal of the Day
