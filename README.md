@@ -12,6 +12,7 @@ The Frontend Architecture Map is a powerful collaboration technique that maps th
 - [Tools](#tools)
 - [Examples](#examples)
 - [Additional Resources](#additional-resources)
+- [Talks](#talks)
 - [Feedback](#feedback)
 
 ## How to Use
@@ -129,12 +130,22 @@ The organisation of your company and the team structure will influence the archi
 
 ## Additional Resources
 
-* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://drive.google.com/file/d/1WXYIEhjYtFsF9aftSAsu-1ir-qqt-B8i/view?usp=sharing)
+* [Example quality scenarios for user related quality attributes](resources/example-quality-scenarios.md)
+    * [Performance efficiency](resources/example-quality-scenarios.md#performance-efficiency)
+    * [Usability](resources/example-quality-scenarios.md#usability)
+    * [Reliability](resources/example-quality-scenarios.md#reliability)
+    * [Security](resources/example-quality-scenarios.md#security)
 
 ## Examples
 
 * [Next generation eCommerce System (en)](resources/examples/frontend-architecture-map-example-en.png)
 * [Next generation eCommerce System (de)](resources/examples/frontend-architecture-map-example-de.png)
+
+
+## Talks
+
+* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://drive.google.com/file/d/1WXYIEhjYtFsF9aftSAsu-1ir-qqt-B8i/view?usp=sharing)
+
 
 
 ## Feedback
