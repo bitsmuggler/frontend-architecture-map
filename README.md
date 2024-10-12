@@ -130,16 +130,16 @@ The organisation of your company and the team structure will influence the archi
 
 ## Additional Resources
 
-* [Example quality scenarios for user related quality attributes](resources/example-quality-scenarios.md)
-    * [Performance efficiency](resources/example-quality-scenarios.md#performance-efficiency)
-    * [Usability](resources/example-quality-scenarios.md#usability)
-    * [Reliability](resources/example-quality-scenarios.md#reliability)
-    * [Security](resources/example-quality-scenarios.md#security)
+* [Example quality scenarios for user related quality attributes](resources/quality-scenario-examples/example-quality-scenarios.md)
+    * [Performance efficiency](resources/quality-scenario-examples/example-quality-scenarios.md#performance-efficiency)
+    * [Usability](resources/quality-scenario-examples/example-quality-scenarios.md#usability)
+    * [Reliability](resources/quality-scenario-examples/example-quality-scenarios.md#reliability)
+    * [Security](resources/quality-scenario-examples/example-quality-scenarios.md#security)
 
 ## Examples
 
-* [Next generation eCommerce System (en)](resources/examples/frontend-architecture-map-example-en.png)
-* [Next generation eCommerce System (de)](resources/examples/frontend-architecture-map-example-de.png)
+* [Next generation eCommerce System (en)](resources/map-examples/frontend-architecture-map-example-en.png)
+* [Next generation eCommerce System (de)](resources/map-examples/frontend-architecture-map-example-de.png)
 
 
 ## Talks
