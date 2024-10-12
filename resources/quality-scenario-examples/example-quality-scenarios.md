@@ -86,16 +86,26 @@ This page contains sample quality scenarios for user-related quality attributes.
 
 ### Intuitive Product Detail Page Navigation
 
-- **Stimulus**: A user clicks on a product from search results to view details.
-- **Stimulus Source**: A user reviewing a product before purchase.
+- **Stimulus**: A user clicks on a product from the search results and expects to easily find detailed product information, such as price, specifications, and reviews.
+
+- **Stimulus Source**: A user reviewing the details of a product before making a purchase decision.
+
 - **Environment**: The system is accessed on a mobile device.
+
 - **Artifact**: The product detail page.
-- **Response**: The page must display detailed information clearly, with key actions visible without scrolling.
-- **Response Measure**: Users locate critical information within 3 seconds of page load.
+
+- **Response**: The product detail page must present information in a clear, well-structured manner, with visible buttons for key actions (e.g., "Add to Cart" and "Read Reviews"). The user should be able to easily navigate through different sections without confusion.
+
+- **Response Measure**: Users can locate critical product information (price, specifications, reviews) within 3 seconds of loading the page, and key actions (e.g., "Add to Cart") should be visible and accessible without scrolling.
 
 #### Frontend Architecture impact
-- **Preferred Rendering Technique**: A combination of SSR for SEO optimization and CSR for interactive elements (e.g., reviews) ensures quick loading with dynamic elements.
-- **Architecture Assumption**: CSR for dynamic elements like reviews; SSR for initial page load.
+
+- **Preferred Rendering Technique**: Static Site Generation (SSG) with dynamic updates through Client-Side Rendering (CSR)
+
+- **Architecture Assumption**:
+    * SSG is used to generate static product pages that can be cached and served via a CDN, ensuring fast load times and SEO optimization.
+    * Dynamic Data via CSR: Certain parts of the page, such as stock levels, user reviews, or personalized recommendations, are dynamically loaded via CSR. This ensures the product details remain static for SEO purposes, while live data is updated as needed.
+    * Incremental Static Regeneration (ISR): If product information (like pricing or availability) changes periodically, ISR can regenerate pages on demand at specific intervals without requiring a full rebuild, ensuring that static content remains relatively up-to-date.
 
 ### Simple and Clear Checkout Process
 
