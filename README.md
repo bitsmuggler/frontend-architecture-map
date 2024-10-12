@@ -4,7 +4,7 @@
 
 The Frontend Architecture Map is a powerful collaboration technique that maps the user journey while highlighting key architectural considerations for next-generation web applications. It is ideal for cross-functional product teams and ensures the development of robust and user-friendly web applications.
 
-![Example Frontend Architecture Map](resources/examples/frontend-architecture-map-example-en.png "The Frontend Architecture Map")
+![Example Frontend Architecture Map](resources/frontend-architecture-map-examples/frontend-architecture-map-example-en.png "The Frontend Architecture Map")
 
 ## Summary
 
@@ -138,8 +138,8 @@ The organisation of your company and the team structure will influence the archi
 
 ## Examples
 
-* [Next generation eCommerce System (en)](resources/map-examples/frontend-architecture-map-example-en.png)
-* [Next generation eCommerce System (de)](resources/map-examples/frontend-architecture-map-example-de.png)
+* [Next generation eCommerce System (en)](resources/frontend-architecture-map-examples/frontend-architecture-map-example-en.png)
+* [Next generation eCommerce System (de)](resources/frontend-architecture-map-examples/frontend-architecture-map-example-de.png)
 
 
 ## Talks
