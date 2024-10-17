@@ -144,8 +144,8 @@ The organisation of your company and the team structure will influence the archi
 
 ## Talks
 
-* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://drive.google.com/file/d/1WXYIEhjYtFsF9aftSAsu-1ir-qqt-B8i/view?usp=sharing)
-
+* [🇩🇪 BED-Conference 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://www.workingsoftware.dev/bedcon-24/)
+* [🇨🇭 Baselone 2024: Jenseits vom Technologie-Hype: Wie wählen wir den richtigen Frontend-Architekturstil?](https://www.workingsoftware.dev/baselone-24/)
 
 
 ## Feedback
